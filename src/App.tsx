@@ -1,21 +1,21 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom';
 
-import HomePage from "./pages/HomePage";
-import JobsPage from "./pages/JobsPage";
-import JobDetailsPage from "./pages/JobDetailsPage";
+import HomePage from './pages/HomePage';
+import JobsPage from './pages/JobsPage';
+import JobDetailsPage from './pages/JobDetailsPage';
 
-import LoginPage from "./pages/auth/LoginPage";
-import RegisterPage from "./pages/auth/RegisterPage";
+import LoginPage from './pages/auth/LoginPage';
+import RegisterPage from './pages/auth/RegisterPage';
 
-import DashboardPage from "./pages/dashboard/DashboardPage";
-import CreateJobPage from "./pages/dashboard/CreateJobPage";
-import EditJobPage from "./pages/dashboard/EditJobPage";
-import MyJobsPage from "./pages/dashboard/MyJobsPage";
-import ProfilePage from "./pages/dashboard/ProfilePage";
+import DashboardPage from './pages/dashboard/DashboardPage';
+import CreateJobPage from './pages/dashboard/CreateJobPage';
+import EditJobPage from './pages/dashboard/EditJobPage';
+import MyJobsPage from './pages/dashboard/MyJobsPage';
+import ProfilePage from './pages/dashboard/ProfilePage';
 
-import NotFoundPage from "./pages/NotFoundPage";
+import NotFoundPage from './pages/NotFoundPage';
 
-import ProtectedRoute from "./routes/ProtectedRoute";
+import ProtectedRoute from './routes/ProtectedRoute';
 
 export default function App() {
   return (
