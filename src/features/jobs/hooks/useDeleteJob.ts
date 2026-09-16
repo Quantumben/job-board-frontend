@@ -19,3 +19,15 @@ export function useDeleteJob() {
     },
   });
 }
+
+const deleteMutation = useDeleteJob();
+
+const handleDelete = (id: number) => {
+  const confirmed = window.confirm('Are you sure you want to delete this job?');
+
+  if (!confirmed) {
+    return;
+  }
+
+  deleteMutation.mutate(id);
+};
