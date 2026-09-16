@@ -5,7 +5,7 @@ import { useJobs } from '../features/jobs/hooks/useJobs';
 export default function JobsPage() {
   const [search, setSearch] = useState('');
 
-  const { data, isPending, isError, error } = useJobs({search,});
+  const { data, isPending, isError, error } = useJobs({ search });
 
   if (isPending) {
     return <div className="p-10 text-center">Loading jobs...</div>;
